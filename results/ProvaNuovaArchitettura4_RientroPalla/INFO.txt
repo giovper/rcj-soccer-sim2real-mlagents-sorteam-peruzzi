@@ -1,0 +1,13 @@
+Questa è un'evoluzione della run ProvaNuovaArchitettura3, sempre eseguita il 10/4/23.
+
+config.yaml = configs/config_simpler_curriculum_2_edit.yaml
+Cambiato il file di config, alzando i treshold, facendo sì che si allenasse di più sulle prime fasi
+
+Modifiche apportate (da claude): quando x o y della palla in valore logico, assoluto, è maggiore
+di 0.9 (OUT_OF_FIELD), e rimane così per 3->5 secondi, il gameManager la riporta in una posizione adatta
+
+Le modifiche si sono rivelate molto produttive.
+Già da 5 milioni di step il modello funzionava bene, poi diventa sempre più bravo
+
+Comunque sembra andare molto bene, grazie al fatto che non passa più tempo a cercare di prendere la
+palla quando esce, ottimizzando gli step

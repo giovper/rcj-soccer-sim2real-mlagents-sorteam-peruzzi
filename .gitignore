@@ -104,3 +104,31 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+#Added
+
+#VEnvs
+/VE*/
+#Logs
+/[Ll]ogs/
+/[Ll]uild/
+/.vs/
+/.vscode/
+
+#Blob crash files
+/*.blob/
+/*.log/
+/*.DS_Store/
+/.DS_Store/
+/mono_crash*.json/
+/.vsconfig/
+
+/.claude/
+
+*.mov
+
+#Reduce repos size
+*.pt
+*.zip
+data/
+build/

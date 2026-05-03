@@ -1,0 +1,65 @@
+{
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 9349998,
+                "file_path": "results/_Prova_6Mar26/AgentController/AgentController-9349998.onnx",
+                "reward": 18.87112934661634,
+                "creation_time": 1772818078.100739,
+                "auxillary_file_paths": [
+                    "results/_Prova_6Mar26/AgentController/AgentController-9349998.pt"
+                ]
+            },
+            {
+                "steps": 9399699,
+                "file_path": "results/_Prova_6Mar26/AgentController/AgentController-9399699.onnx",
+                "reward": 5.314950616147037,
+                "creation_time": 1772818096.2926788,
+                "auxillary_file_paths": [
+                    "results/_Prova_6Mar26/AgentController/AgentController-9399699.pt"
+                ]
+            },
+            {
+                "steps": 9449852,
+                "file_path": "results/_Prova_6Mar26/AgentController/AgentController-9449852.onnx",
+                "reward": 20.47361571079976,
+                "creation_time": 1772818116.606975,
+                "auxillary_file_paths": [
+                    "results/_Prova_6Mar26/AgentController/AgentController-9449852.pt"
+                ]
+            },
+            {
+                "steps": 9499712,
+                "file_path": "results/_Prova_6Mar26/AgentController/AgentController-9499712.onnx",
+                "reward": 15.321936957976398,
+                "creation_time": 1772818135.231851,
+                "auxillary_file_paths": [
+                    "results/_Prova_6Mar26/AgentController/AgentController-9499712.pt"
+                ]
+            },
+            {
+                "steps": 9521888,
+                "file_path": "results/_Prova_6Mar26/AgentController/AgentController-9521888.onnx",
+                "reward": null,
+                "creation_time": 1772818205.0591738,
+                "auxillary_file_paths": [
+                    "results/_Prova_6Mar26/AgentController/AgentController-9521888.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 9521888,
+            "file_path": "results/_Prova_6Mar26/AgentController.onnx",
+            "reward": null,
+            "creation_time": 1772818205.0591738,
+            "auxillary_file_paths": [
+                "results/_Prova_6Mar26/AgentController/AgentController-9521888.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

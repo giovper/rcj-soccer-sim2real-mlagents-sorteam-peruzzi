@@ -1,0 +1,10 @@
+Run del 12/4/26
+
+ProvaNuovaArchiettura5_3_RidottoNoiseA0-05_altra_run
+
+file config: configs/config_simpler_curriculum_2_edit.yaml
+
+Ripetizione della run results/ProvaNuovaArchiettura5_2  (quindi sempre noise +-0.05)
+
+Risultati:
+Non cambia molto

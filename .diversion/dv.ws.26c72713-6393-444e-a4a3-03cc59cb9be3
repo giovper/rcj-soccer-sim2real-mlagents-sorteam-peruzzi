@@ -1,0 +1,16 @@
+{
+  "WorkspaceID": "dv.ws.26c72713-6393-444e-a4a3-03cc59cb9be3",
+  "RepoID": "dv.repo.26250df9-2c3e-4c03-89df-e5b760d2ebc0",
+  "Path": "/Users/sor-team/Documents/UnityProjects/UnityMLAgents2022",
+  "AccountID": "Google_115424661076712625391",
+  "BranchID": "dv.branch.1",
+  "BranchName": "main",
+  "CommitID": "dv.commit.65",
+  "Paused": false,
+  "ShouldDownload": false,
+  "RepoName": "UnityMLAgents2022",
+  "PauseReason": "Temporary error - retrying automatically",
+  "ReadOnly": false,
+  "DigestMethod": "sha1",
+  "OrganizationTier": "INDIE"
+}

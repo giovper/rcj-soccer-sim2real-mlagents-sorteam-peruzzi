@@ -1,0 +1,563 @@
+{
+    "phase": {
+        "lesson_num": 2
+    },
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 20599925,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20599925.onnx",
+                "reward": 39.093100163115174,
+                "creation_time": 1775914129.366802,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20599925.pt"
+                ]
+            },
+            {
+                "steps": 20649978,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20649978.onnx",
+                "reward": 39.041880551506495,
+                "creation_time": 1775914155.8198211,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20649978.pt"
+                ]
+            },
+            {
+                "steps": 20699934,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20699934.onnx",
+                "reward": 46.15532260343253,
+                "creation_time": 1775914180.448292,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20699934.pt"
+                ]
+            },
+            {
+                "steps": 20749832,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20749832.onnx",
+                "reward": 49.14821732222144,
+                "creation_time": 1775914206.284958,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20749832.pt"
+                ]
+            },
+            {
+                "steps": 20799905,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20799905.onnx",
+                "reward": 42.46782389614317,
+                "creation_time": 1775914230.491004,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20799905.pt"
+                ]
+            },
+            {
+                "steps": 20849980,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20849980.onnx",
+                "reward": 38.73908834457397,
+                "creation_time": 1775914256.6648479,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20849980.pt"
+                ]
+            },
+            {
+                "steps": 20899958,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20899958.onnx",
+                "reward": 44.808177308191226,
+                "creation_time": 1775914281.236497,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20899958.pt"
+                ]
+            },
+            {
+                "steps": 20949984,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20949984.onnx",
+                "reward": 38.80044442337829,
+                "creation_time": 1775914304.92669,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20949984.pt"
+                ]
+            },
+            {
+                "steps": 20999982,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20999982.onnx",
+                "reward": 41.83404904361224,
+                "creation_time": 1775914328.8460732,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-20999982.pt"
+                ]
+            },
+            {
+                "steps": 21049889,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21049889.onnx",
+                "reward": 38.04107367992401,
+                "creation_time": 1775914355.6130161,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21049889.pt"
+                ]
+            },
+            {
+                "steps": 21099908,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21099908.onnx",
+                "reward": 35.42917629768108,
+                "creation_time": 1775914377.3168378,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21099908.pt"
+                ]
+            },
+            {
+                "steps": 21149789,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21149789.onnx",
+                "reward": 43.55386229473002,
+                "creation_time": 1775914398.913755,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21149789.pt"
+                ]
+            },
+            {
+                "steps": 21199932,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21199932.onnx",
+                "reward": 41.64205061533805,
+                "creation_time": 1775914419.416182,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21199932.pt"
+                ]
+            },
+            {
+                "steps": 21249921,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21249921.onnx",
+                "reward": 39.61814299496737,
+                "creation_time": 1775914442.0079691,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21249921.pt"
+                ]
+            },
+            {
+                "steps": 21299892,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21299892.onnx",
+                "reward": 45.61995649926456,
+                "creation_time": 1775914462.5069408,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21299892.pt"
+                ]
+            },
+            {
+                "steps": 21349768,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21349768.onnx",
+                "reward": 43.74824496677944,
+                "creation_time": 1775914483.0138628,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21349768.pt"
+                ]
+            },
+            {
+                "steps": 21399713,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21399713.onnx",
+                "reward": 43.70346537232399,
+                "creation_time": 1775914503.8381429,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21399713.pt"
+                ]
+            },
+            {
+                "steps": 21449894,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21449894.onnx",
+                "reward": 52.843535370296905,
+                "creation_time": 1775914526.622089,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21449894.pt"
+                ]
+            },
+            {
+                "steps": 21499877,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21499877.onnx",
+                "reward": 36.31806802168125,
+                "creation_time": 1775914547.478636,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21499877.pt"
+                ]
+            },
+            {
+                "steps": 21549716,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21549716.onnx",
+                "reward": 45.386991438318475,
+                "creation_time": 1775914567.428496,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21549716.pt"
+                ]
+            },
+            {
+                "steps": 21599907,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21599907.onnx",
+                "reward": 44.158894216097316,
+                "creation_time": 1775914590.411797,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21599907.pt"
+                ]
+            },
+            {
+                "steps": 21649828,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21649828.onnx",
+                "reward": 55.58357069227431,
+                "creation_time": 1775914616.5435379,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21649828.pt"
+                ]
+            },
+            {
+                "steps": 21699766,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21699766.onnx",
+                "reward": 48.46958528715989,
+                "creation_time": 1775914641.6752481,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21699766.pt"
+                ]
+            },
+            {
+                "steps": 21749874,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21749874.onnx",
+                "reward": 38.239362899807915,
+                "creation_time": 1775914667.1618109,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21749874.pt"
+                ]
+            },
+            {
+                "steps": 21799930,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21799930.onnx",
+                "reward": 42.97322560516564,
+                "creation_time": 1775914694.275884,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21799930.pt"
+                ]
+            },
+            {
+                "steps": 21849995,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21849995.onnx",
+                "reward": null,
+                "creation_time": 1775914723.03076,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21849995.pt"
+                ]
+            },
+            {
+                "steps": 21899863,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21899863.onnx",
+                "reward": 45.29161755243937,
+                "creation_time": 1775914748.612202,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21899863.pt"
+                ]
+            },
+            {
+                "steps": 21949802,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21949802.onnx",
+                "reward": 48.813795054070305,
+                "creation_time": 1775914775.397425,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21949802.pt"
+                ]
+            },
+            {
+                "steps": 21999902,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21999902.onnx",
+                "reward": 45.768632153912286,
+                "creation_time": 1775914801.260854,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-21999902.pt"
+                ]
+            },
+            {
+                "steps": 22049999,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22049999.onnx",
+                "reward": 48.06597815593475,
+                "creation_time": 1775914827.706987,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22049999.pt"
+                ]
+            },
+            {
+                "steps": 22099926,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22099926.onnx",
+                "reward": 38.39926476912065,
+                "creation_time": 1775914854.7539709,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22099926.pt"
+                ]
+            },
+            {
+                "steps": 22149992,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22149992.onnx",
+                "reward": 42.93437197356098,
+                "creation_time": 1775914878.894871,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22149992.pt"
+                ]
+            },
+            {
+                "steps": 22199888,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22199888.onnx",
+                "reward": 37.05652231110467,
+                "creation_time": 1775914902.925408,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22199888.pt"
+                ]
+            },
+            {
+                "steps": 22249719,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22249719.onnx",
+                "reward": 46.504770523971985,
+                "creation_time": 1775914928.9116611,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22249719.pt"
+                ]
+            },
+            {
+                "steps": 22299726,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22299726.onnx",
+                "reward": 44.62919343686571,
+                "creation_time": 1775914956.041981,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22299726.pt"
+                ]
+            },
+            {
+                "steps": 22349769,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22349769.onnx",
+                "reward": 44.61243122595328,
+                "creation_time": 1775914982.69408,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22349769.pt"
+                ]
+            },
+            {
+                "steps": 22399947,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22399947.onnx",
+                "reward": 42.78671830083117,
+                "creation_time": 1775915007.802899,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22399947.pt"
+                ]
+            },
+            {
+                "steps": 22449760,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22449760.onnx",
+                "reward": 46.980885256420486,
+                "creation_time": 1775915032.901414,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22449760.pt"
+                ]
+            },
+            {
+                "steps": 22499830,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22499830.onnx",
+                "reward": 53.307915806770325,
+                "creation_time": 1775915060.040904,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22499830.pt"
+                ]
+            },
+            {
+                "steps": 22549785,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22549785.onnx",
+                "reward": 39.10651114463806,
+                "creation_time": 1775915084.0421581,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22549785.pt"
+                ]
+            },
+            {
+                "steps": 22599838,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22599838.onnx",
+                "reward": 45.85611206877466,
+                "creation_time": 1775915110.5797179,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22599838.pt"
+                ]
+            },
+            {
+                "steps": 22649803,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22649803.onnx",
+                "reward": 42.979562417880906,
+                "creation_time": 1775915135.452839,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22649803.pt"
+                ]
+            },
+            {
+                "steps": 22699939,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22699939.onnx",
+                "reward": 42.117549896240234,
+                "creation_time": 1775915162.166591,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22699939.pt"
+                ]
+            },
+            {
+                "steps": 22749909,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22749909.onnx",
+                "reward": 44.26421582296993,
+                "creation_time": 1775915186.913713,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22749909.pt"
+                ]
+            },
+            {
+                "steps": 22799719,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22799719.onnx",
+                "reward": 45.97229192385802,
+                "creation_time": 1775915211.078336,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22799719.pt"
+                ]
+            },
+            {
+                "steps": 22849871,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22849871.onnx",
+                "reward": 39.149680662592615,
+                "creation_time": 1775915237.265072,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22849871.pt"
+                ]
+            },
+            {
+                "steps": 22899994,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22899994.onnx",
+                "reward": 30.565601002086293,
+                "creation_time": 1775915264.171728,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22899994.pt"
+                ]
+            },
+            {
+                "steps": 22949854,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22949854.onnx",
+                "reward": 46.64385410623813,
+                "creation_time": 1775915288.8336709,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22949854.pt"
+                ]
+            },
+            {
+                "steps": 22999707,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22999707.onnx",
+                "reward": 42.879155995962506,
+                "creation_time": 1775915313.3246028,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-22999707.pt"
+                ]
+            },
+            {
+                "steps": 23049968,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23049968.onnx",
+                "reward": 41.47648310319088,
+                "creation_time": 1775915337.71905,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23049968.pt"
+                ]
+            },
+            {
+                "steps": 23099801,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23099801.onnx",
+                "reward": 40.90707610902332,
+                "creation_time": 1775915363.748471,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23099801.pt"
+                ]
+            },
+            {
+                "steps": 23149981,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23149981.onnx",
+                "reward": 49.55560236472588,
+                "creation_time": 1775915388.287595,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23149981.pt"
+                ]
+            },
+            {
+                "steps": 23199925,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23199925.onnx",
+                "reward": 50.010136940109895,
+                "creation_time": 1775915412.087849,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23199925.pt"
+                ]
+            },
+            {
+                "steps": 23249942,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23249942.onnx",
+                "reward": 43.12075095403762,
+                "creation_time": 1775915436.292064,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23249942.pt"
+                ]
+            },
+            {
+                "steps": 23299982,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23299982.onnx",
+                "reward": 46.27779624041389,
+                "creation_time": 1775915462.2907462,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23299982.pt"
+                ]
+            },
+            {
+                "steps": 23349804,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23349804.onnx",
+                "reward": 52.11944771990364,
+                "creation_time": 1775915486.9225888,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23349804.pt"
+                ]
+            },
+            {
+                "steps": 23399819,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23399819.onnx",
+                "reward": 49.84578778282289,
+                "creation_time": 1775915510.962542,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23399819.pt"
+                ]
+            },
+            {
+                "steps": 23449779,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23449779.onnx",
+                "reward": 47.62956824037764,
+                "creation_time": 1775915535.2110028,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23449779.pt"
+                ]
+            },
+            {
+                "steps": 23499798,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23499798.onnx",
+                "reward": 48.61662877400716,
+                "creation_time": 1775915560.742751,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23499798.pt"
+                ]
+            },
+            {
+                "steps": 23502118,
+                "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23502118.onnx",
+                "reward": 41.67598625329825,
+                "creation_time": 1775915564.7328541,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23502118.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 23502118,
+            "file_path": "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController.onnx",
+            "reward": 41.67598625329825,
+            "creation_time": 1775915564.7328541,
+            "auxillary_file_paths": [
+                "results/ProvaNuovaArchiettura5_RobotStaticoFase2/AgentController/AgentController-23502118.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

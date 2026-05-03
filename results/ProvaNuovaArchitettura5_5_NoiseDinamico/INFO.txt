@@ -1,0 +1,11 @@
+Run del 12/4/26
+
+ProvaNuovaArchiettura5_5_NoiseDinamico
+
+file config: configs/config_simpler_curriculum_2_edit.yaml
+
+Ha una precisione maggiora nel movimento, nel colpire la palla, nell'approcciarsi a fare tiri.
+
+Problemi: molto spesso quando la palla è abbastanza vicina alla porta ma neanche troppo, il robot
+continua ad andare avanti e indietro (per questo nella run dopo metto velocità x e y (z), spero risolva),
+e in alcune situazioni sui lati sta praticamente fermo, o continua ad andare avanti o indietro

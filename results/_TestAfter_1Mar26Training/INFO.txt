@@ -1,0 +1,21 @@
+Questa run ha lo stesso problema della precedente, vale a dire la run _1Mar26_Training_10Hrs
+ovvero in entrambe dopo circa 80 milioni di step il mean reward cala drasticamente per qualche motivo.
+Nota che questa è la run in cui ho modificato i valori come mi aveva detto gemini, ovvero:
+behaviors:
+  AgentController:
+    trainer_type: ppo
+    hyperparameters:
+      # ... altri parametri ...
+      learning_rate: 0.0003
+      learning_rate_schedule: linear
+      beta: 0.005           # Aumentato (era 0.0005) per mantenere l'esplorazione
+      epsilon: 0.2
+      # ...
+    max_steps: 100000000    # Ridotto a 100 Milioni (era 1 Trilione)
+
+Tempo di allenamento tipo 10h
+
+Tuttavia il codice di questa run è salvata nel commit prima di questo, in cui non avevo ancora modificato cose tipo
+- clamp della forza
+- termina episodio quando robot fa goal
+- in questa il reward e diviso per episode time (tipo), nella run successiva (questo commit) invece sono state cambiate

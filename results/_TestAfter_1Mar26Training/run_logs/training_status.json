@@ -1,0 +1,65 @@
+{
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 83249852,
+                "file_path": "results/_TestAfter_1Mar26Training/AgentController/AgentController-83249852.onnx",
+                "reward": 0.8030369638493566,
+                "creation_time": 1772460355.532361,
+                "auxillary_file_paths": [
+                    "results/_TestAfter_1Mar26Training/AgentController/AgentController-83249852.pt"
+                ]
+            },
+            {
+                "steps": 83299952,
+                "file_path": "results/_TestAfter_1Mar26Training/AgentController/AgentController-83299952.onnx",
+                "reward": 0.471419351734221,
+                "creation_time": 1772460377.3536918,
+                "auxillary_file_paths": [
+                    "results/_TestAfter_1Mar26Training/AgentController/AgentController-83299952.pt"
+                ]
+            },
+            {
+                "steps": 83349752,
+                "file_path": "results/_TestAfter_1Mar26Training/AgentController/AgentController-83349752.onnx",
+                "reward": 0.5414644084546877,
+                "creation_time": 1772460395.206004,
+                "auxillary_file_paths": [
+                    "results/_TestAfter_1Mar26Training/AgentController/AgentController-83349752.pt"
+                ]
+            },
+            {
+                "steps": 83399852,
+                "file_path": "results/_TestAfter_1Mar26Training/AgentController/AgentController-83399852.onnx",
+                "reward": 0.605423680137632,
+                "creation_time": 1772460413.201917,
+                "auxillary_file_paths": [
+                    "results/_TestAfter_1Mar26Training/AgentController/AgentController-83399852.pt"
+                ]
+            },
+            {
+                "steps": 83443952,
+                "file_path": "results/_TestAfter_1Mar26Training/AgentController/AgentController-83443952.onnx",
+                "reward": 0.5777418326120823,
+                "creation_time": 1772460432.750071,
+                "auxillary_file_paths": [
+                    "results/_TestAfter_1Mar26Training/AgentController/AgentController-83443952.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 83443952,
+            "file_path": "results/_TestAfter_1Mar26Training/AgentController.onnx",
+            "reward": 0.5777418326120823,
+            "creation_time": 1772460432.750071,
+            "auxillary_file_paths": [
+                "results/_TestAfter_1Mar26Training/AgentController/AgentController-83443952.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

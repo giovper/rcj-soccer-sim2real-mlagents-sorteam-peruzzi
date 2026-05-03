@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1770199381",
+        "python_version": "3.9.25 (main, Oct 31 2025, 18:40:52) \n[Clang 17.0.0 (clang-1700.4.4.1)]",
+        "command_line_arguments": "/Users/sor-team/Documents/UnityProjects/UnityMLAgents2022/VE_MAC/bin/mlagents-learn configs/config_simpler_unmaxed.yaml",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1770199433"
+    },
+    "total": 51.879466541,
+    "count": 1,
+    "self": 0.005544540999999015,
+    "children": {
+        "run_training.setup": {
+            "total": 0.029494875000000143,
+            "count": 1,
+            "self": 0.029494875000000143
+        },
+        "TrainerController.start_learning": {
+            "total": 51.844427125,
+            "count": 1,
+            "self": 0.000476251000002037,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 51.843937041000004,
+                    "count": 1,
+                    "self": 51.843937041000004
+                },
+                "trainer_threads": {
+                    "total": 9.580000011055745e-07,
+                    "count": 1,
+                    "self": 9.580000011055745e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.287499999591546e-05,
+                    "count": 1,
+                    "self": 1.287499999591546e-05
+                }
+            }
+        }
+    }
+}

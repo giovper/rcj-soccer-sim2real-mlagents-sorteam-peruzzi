@@ -1,0 +1,7 @@
+Run con parametri, codice, yaml identica rispetto alla run del 6 Mar 26, solo che è
+andata avanti meno step (circa 5-8 milioni ora) che di fatto mi fa constatare che
+con il seguente codice e le seguenti ricompense e il fatto che sia randomizzato, 
+il robot impara valocemente a colpire la palla verso la porta.
+
+Non l'ho continuato come la run del 6 Mar 26 (vedi file _Prova_6Mar26/INFO.txt in cui
+spiego problemi)

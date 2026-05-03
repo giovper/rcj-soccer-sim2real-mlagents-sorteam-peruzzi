@@ -1,0 +1,563 @@
+{
+    "phase": {
+        "lesson_num": 2
+    },
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 17899895,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-17899895.onnx",
+                "reward": 174.02862655415254,
+                "creation_time": 1776083071.25691,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-17899895.pt"
+                ]
+            },
+            {
+                "steps": 17949813,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-17949813.onnx",
+                "reward": 177.5359105697045,
+                "creation_time": 1776083092.3572621,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-17949813.pt"
+                ]
+            },
+            {
+                "steps": 17999952,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-17999952.onnx",
+                "reward": 166.73240558406974,
+                "creation_time": 1776083113.622603,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-17999952.pt"
+                ]
+            },
+            {
+                "steps": 18049848,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18049848.onnx",
+                "reward": 142.4544425377479,
+                "creation_time": 1776083136.972,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18049848.pt"
+                ]
+            },
+            {
+                "steps": 18099998,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18099998.onnx",
+                "reward": 171.4189731530976,
+                "creation_time": 1776083157.819544,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18099998.pt"
+                ]
+            },
+            {
+                "steps": 18149698,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18149698.onnx",
+                "reward": 179.38469254144348,
+                "creation_time": 1776083178.748663,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18149698.pt"
+                ]
+            },
+            {
+                "steps": 18199807,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18199807.onnx",
+                "reward": 163.29138274070544,
+                "creation_time": 1776083199.830615,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18199807.pt"
+                ]
+            },
+            {
+                "steps": 18249761,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18249761.onnx",
+                "reward": 225.44104330880302,
+                "creation_time": 1776083223.252689,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18249761.pt"
+                ]
+            },
+            {
+                "steps": 18299807,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18299807.onnx",
+                "reward": 188.81449391291693,
+                "creation_time": 1776083243.9523299,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18299807.pt"
+                ]
+            },
+            {
+                "steps": 18349876,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18349876.onnx",
+                "reward": 171.02630286641642,
+                "creation_time": 1776083265.279262,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18349876.pt"
+                ]
+            },
+            {
+                "steps": 18399769,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18399769.onnx",
+                "reward": 171.72784222920737,
+                "creation_time": 1776083286.4902132,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18399769.pt"
+                ]
+            },
+            {
+                "steps": 18449754,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18449754.onnx",
+                "reward": 174.26093292236328,
+                "creation_time": 1776083309.1776,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18449754.pt"
+                ]
+            },
+            {
+                "steps": 18499918,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18499918.onnx",
+                "reward": 159.5756687777383,
+                "creation_time": 1776083330.4262981,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18499918.pt"
+                ]
+            },
+            {
+                "steps": 18549801,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18549801.onnx",
+                "reward": 181.9347456296285,
+                "creation_time": 1776083351.4680882,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18549801.pt"
+                ]
+            },
+            {
+                "steps": 18599965,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18599965.onnx",
+                "reward": 170.50544263187209,
+                "creation_time": 1776083372.459575,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18599965.pt"
+                ]
+            },
+            {
+                "steps": 18649886,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18649886.onnx",
+                "reward": 174.826810276441,
+                "creation_time": 1776083393.0470378,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18649886.pt"
+                ]
+            },
+            {
+                "steps": 18699970,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18699970.onnx",
+                "reward": 180.54587881905692,
+                "creation_time": 1776083416.7407758,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18699970.pt"
+                ]
+            },
+            {
+                "steps": 18749812,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18749812.onnx",
+                "reward": 177.77925798628064,
+                "creation_time": 1776083438.0372071,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18749812.pt"
+                ]
+            },
+            {
+                "steps": 18799986,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18799986.onnx",
+                "reward": 174.55130205363253,
+                "creation_time": 1776083459.1693509,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18799986.pt"
+                ]
+            },
+            {
+                "steps": 18849879,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18849879.onnx",
+                "reward": 159.67429383747887,
+                "creation_time": 1776083480.343719,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18849879.pt"
+                ]
+            },
+            {
+                "steps": 18899936,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18899936.onnx",
+                "reward": 144.34886264801025,
+                "creation_time": 1776083503.352312,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18899936.pt"
+                ]
+            },
+            {
+                "steps": 18949955,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18949955.onnx",
+                "reward": 162.68832609388562,
+                "creation_time": 1776083524.754682,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18949955.pt"
+                ]
+            },
+            {
+                "steps": 18999997,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-18999997.onnx",
+                "reward": 165.14706079274006,
+                "creation_time": 1776083545.336832,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-18999997.pt"
+                ]
+            },
+            {
+                "steps": 19049978,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19049978.onnx",
+                "reward": 178.71369810854452,
+                "creation_time": 1776083566.6672,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19049978.pt"
+                ]
+            },
+            {
+                "steps": 19099768,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19099768.onnx",
+                "reward": 150.35558053218958,
+                "creation_time": 1776083589.6313431,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19099768.pt"
+                ]
+            },
+            {
+                "steps": 19149845,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19149845.onnx",
+                "reward": 177.06843726699418,
+                "creation_time": 1776083611.092848,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19149845.pt"
+                ]
+            },
+            {
+                "steps": 19199733,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19199733.onnx",
+                "reward": 175.19862190087636,
+                "creation_time": 1776083631.787733,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19199733.pt"
+                ]
+            },
+            {
+                "steps": 19249926,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19249926.onnx",
+                "reward": 171.43376572008077,
+                "creation_time": 1776083653.068152,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19249926.pt"
+                ]
+            },
+            {
+                "steps": 19299746,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19299746.onnx",
+                "reward": 151.2177709148776,
+                "creation_time": 1776083676.130464,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19299746.pt"
+                ]
+            },
+            {
+                "steps": 19349930,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19349930.onnx",
+                "reward": 183.37439740009796,
+                "creation_time": 1776083697.647996,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19349930.pt"
+                ]
+            },
+            {
+                "steps": 19399888,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19399888.onnx",
+                "reward": 171.19882312063444,
+                "creation_time": 1776083719.309408,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19399888.pt"
+                ]
+            },
+            {
+                "steps": 19449905,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19449905.onnx",
+                "reward": 187.91203763408046,
+                "creation_time": 1776083740.258153,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19449905.pt"
+                ]
+            },
+            {
+                "steps": 19499884,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19499884.onnx",
+                "reward": 181.5013850075858,
+                "creation_time": 1776083764.361822,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19499884.pt"
+                ]
+            },
+            {
+                "steps": 19549983,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19549983.onnx",
+                "reward": 173.5136941092355,
+                "creation_time": 1776083785.1334531,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19549983.pt"
+                ]
+            },
+            {
+                "steps": 19599707,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19599707.onnx",
+                "reward": 167.78175312539807,
+                "creation_time": 1776083806.4488509,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19599707.pt"
+                ]
+            },
+            {
+                "steps": 19649906,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19649906.onnx",
+                "reward": 174.3693160418398,
+                "creation_time": 1776083827.336909,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19649906.pt"
+                ]
+            },
+            {
+                "steps": 19699726,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19699726.onnx",
+                "reward": 190.50971323649088,
+                "creation_time": 1776083851.584898,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19699726.pt"
+                ]
+            },
+            {
+                "steps": 19749981,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19749981.onnx",
+                "reward": 173.044769950535,
+                "creation_time": 1776083873.144907,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19749981.pt"
+                ]
+            },
+            {
+                "steps": 19799901,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19799901.onnx",
+                "reward": 184.4985308147612,
+                "creation_time": 1776083894.238537,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19799901.pt"
+                ]
+            },
+            {
+                "steps": 19849824,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19849824.onnx",
+                "reward": 174.97142087056966,
+                "creation_time": 1776083915.521499,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19849824.pt"
+                ]
+            },
+            {
+                "steps": 19899896,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19899896.onnx",
+                "reward": 115.30468793348832,
+                "creation_time": 1776083939.188065,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19899896.pt"
+                ]
+            },
+            {
+                "steps": 19949824,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19949824.onnx",
+                "reward": 174.7991806377064,
+                "creation_time": 1776083960.0883908,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19949824.pt"
+                ]
+            },
+            {
+                "steps": 19999903,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-19999903.onnx",
+                "reward": 174.00669079167503,
+                "creation_time": 1776083980.31575,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-19999903.pt"
+                ]
+            },
+            {
+                "steps": 20049911,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20049911.onnx",
+                "reward": 177.53470836108244,
+                "creation_time": 1776084000.553893,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20049911.pt"
+                ]
+            },
+            {
+                "steps": 20099845,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20099845.onnx",
+                "reward": 142.9405961036682,
+                "creation_time": 1776084023.2890618,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20099845.pt"
+                ]
+            },
+            {
+                "steps": 20149897,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20149897.onnx",
+                "reward": 171.04878330230713,
+                "creation_time": 1776084044.056362,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20149897.pt"
+                ]
+            },
+            {
+                "steps": 20199846,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20199846.onnx",
+                "reward": 178.27682636260985,
+                "creation_time": 1776084064.2816,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20199846.pt"
+                ]
+            },
+            {
+                "steps": 20249870,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20249870.onnx",
+                "reward": 163.045533823967,
+                "creation_time": 1776084084.428328,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20249870.pt"
+                ]
+            },
+            {
+                "steps": 20299945,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20299945.onnx",
+                "reward": 109.85805193583171,
+                "creation_time": 1776084107.270932,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20299945.pt"
+                ]
+            },
+            {
+                "steps": 20349832,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20349832.onnx",
+                "reward": 169.80053399643808,
+                "creation_time": 1776084127.263616,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20349832.pt"
+                ]
+            },
+            {
+                "steps": 20399828,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20399828.onnx",
+                "reward": 168.7330006864882,
+                "creation_time": 1776084147.6990452,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20399828.pt"
+                ]
+            },
+            {
+                "steps": 20449740,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20449740.onnx",
+                "reward": 177.54473586048152,
+                "creation_time": 1776084168.682061,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20449740.pt"
+                ]
+            },
+            {
+                "steps": 20499746,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20499746.onnx",
+                "reward": 176.22234069908058,
+                "creation_time": 1776084188.794212,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20499746.pt"
+                ]
+            },
+            {
+                "steps": 20549857,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20549857.onnx",
+                "reward": 156.32228216833,
+                "creation_time": 1776084211.509598,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20549857.pt"
+                ]
+            },
+            {
+                "steps": 20599796,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20599796.onnx",
+                "reward": 179.04922166031398,
+                "creation_time": 1776084232.278924,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20599796.pt"
+                ]
+            },
+            {
+                "steps": 20649763,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20649763.onnx",
+                "reward": 195.46405247485998,
+                "creation_time": 1776084252.183423,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20649763.pt"
+                ]
+            },
+            {
+                "steps": 20699961,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20699961.onnx",
+                "reward": 182.04977318930761,
+                "creation_time": 1776084273.344298,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20699961.pt"
+                ]
+            },
+            {
+                "steps": 20749802,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20749802.onnx",
+                "reward": 163.42654833922515,
+                "creation_time": 1776084296.28728,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20749802.pt"
+                ]
+            },
+            {
+                "steps": 20799979,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20799979.onnx",
+                "reward": 186.78598123715247,
+                "creation_time": 1776084316.891129,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20799979.pt"
+                ]
+            },
+            {
+                "steps": 20822658,
+                "file_path": "results/ProvaNuovaArchitettura6/AgentController/AgentController-20822658.onnx",
+                "reward": 99.89217376708984,
+                "creation_time": 1776084336.4150379,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura6/AgentController/AgentController-20822658.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20822658,
+            "file_path": "results/ProvaNuovaArchitettura6/AgentController.onnx",
+            "reward": 99.89217376708984,
+            "creation_time": 1776084336.4150379,
+            "auxillary_file_paths": [
+                "results/ProvaNuovaArchitettura6/AgentController/AgentController-20822658.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

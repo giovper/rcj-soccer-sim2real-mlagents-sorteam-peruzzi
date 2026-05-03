@@ -1,0 +1,14 @@
+Run del 11/4/26
+
+file config: configs/config_simpler_curriculum_2_edit.yaml
+
+Rivisitato (reso + accessibile) il sistema di fasi, e soprattutto aggiunto che anche nell'ultima fase
+c'è un robot che sta fermo.
+
+Risultati molto simili a quelli della run precedente, ma direi di tenere questa modifica.
+
+
+Da fare:
+- Modalità utente gioca contro modello in inferenza
+- Fase #3 -> reward minori per tutto eccetto goal
+- Rafforzare le fasi precedenti mettendo un treshold maggiore ? boh

@@ -1,0 +1,4 @@
+Questa è una copia della run con ID Temp (results/OLD/Temp attualmente).
+E' stato allenato per circa 10h, con il codice senza modifiche di gemini (previste in questo commit corrente)
+E' stato allenato inoltre anche senza le modifiche allo yaml descritte nella run successiva (results/_TestAfter_1Mar26Training)
+Da il problema (come la successiva), che dopo circa 80M cala molto

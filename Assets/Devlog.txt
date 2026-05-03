@@ -1,0 +1,33 @@
+10/9/25
+Testato modalità ReachBall dopo aver aggunto nei giorni precedenti
+un ConfigLoader. Il resto era stato realizzato nelle precedenti
+settimane/mesi.
+Con pochi input, che erano il delta posizione xz tra palla e robot
+già precedentemente il modello si allenava facilmente e velocemente
+Ora ho provato prima a aggiungere altri input, come dimensioni, e
+l'allenamento è rallentato moltissimo. Ho quindi inserito delle misure
+di valutazioni del miglioramento (il robot dovrebbe muoversi,
+avvicinarsi alla palla, sopravvivere) e aggiustato i valori e da lì
+(con delta posizione) si riusciva ad allenare.
+Ho messo poi posiizone assoluta e ha reso le cose più difficili ma
+dopo un po' di più di prima comunque il modello si è allenato,
+e si chiama ReachBallABSconEVAL
+
+10/1/26
+Creati i materiali fisici
+Notare che valori alti di friction del materiale ground fanno si che la palla colpita dal robot dopo un attimo scende subito di velocità e non va bene. Preferisci dunque l'uso del drag nel RigidBody
+
+5/2/26
+Devo aggiungere: minuscola penalizzazione proprozionale al movimento
+Reward per palla quando è in banda centrale e non sui lati lunghi
+Minore reward per palla quando colpita da robot
+Reward per quando la palla è calciata (colpita) con una certa forza (e verso la porta?)
+Aggiungere noise posizione robot e palla (?)
+Togliere la reward che se si avvicina, lo ricompensa, altrimenti no, perchè fa si che il robot ondeggi avanti e indietro per ottenere ricompense
+
+13/2/26
+Per qualche cazzo di motivo ha paura di toccare la palla
+
+
+6/4/26
+RIUSCIRE A RANDOMIZZARE LA POS DEI ROBOT ALL'AVVIO DI OGNI EPISODIO E ALL'INIZIO

@@ -1,0 +1,11 @@
+Run del 13/4/26
+
+file config: configs/config_simpler_curriculum_3.yaml
+
+Ripetizione identica di ProvaNuovaArchitettura6 (stesse obs velocità, stesso noise dinamico, stesso config).
+
+Risultati:
+Stessi problemi di PNA6 (angolo in alto a sx, reward netto positivo nell'angolo),
+ma leggermente meno accentuati rispetto a PNA6.
+
+Vedi INFO.txt di ProvaNuovaArchitettura6 per analisi completa e fix previsto.

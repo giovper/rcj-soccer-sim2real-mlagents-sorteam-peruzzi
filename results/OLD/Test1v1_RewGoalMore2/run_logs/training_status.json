@@ -1,0 +1,65 @@
+{
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 1699968,
+                "file_path": "results/Test1v1_RewGoalMore2/AgentController/AgentController-1699968.onnx",
+                "reward": null,
+                "creation_time": 1767960521.366313,
+                "auxillary_file_paths": [
+                    "results/Test1v1_RewGoalMore2/AgentController/AgentController-1699968.pt"
+                ]
+            },
+            {
+                "steps": 1749888,
+                "file_path": "results/Test1v1_RewGoalMore2/AgentController/AgentController-1749888.onnx",
+                "reward": null,
+                "creation_time": 1767960537.344844,
+                "auxillary_file_paths": [
+                    "results/Test1v1_RewGoalMore2/AgentController/AgentController-1749888.pt"
+                ]
+            },
+            {
+                "steps": 1799936,
+                "file_path": "results/Test1v1_RewGoalMore2/AgentController/AgentController-1799936.onnx",
+                "reward": null,
+                "creation_time": 1767960553.372637,
+                "auxillary_file_paths": [
+                    "results/Test1v1_RewGoalMore2/AgentController/AgentController-1799936.pt"
+                ]
+            },
+            {
+                "steps": 1849984,
+                "file_path": "results/Test1v1_RewGoalMore2/AgentController/AgentController-1849984.onnx",
+                "reward": null,
+                "creation_time": 1767960569.4279308,
+                "auxillary_file_paths": [
+                    "results/Test1v1_RewGoalMore2/AgentController/AgentController-1849984.pt"
+                ]
+            },
+            {
+                "steps": 1856000,
+                "file_path": "results/Test1v1_RewGoalMore2/AgentController/AgentController-1856000.onnx",
+                "reward": null,
+                "creation_time": 1767960589.903019,
+                "auxillary_file_paths": [
+                    "results/Test1v1_RewGoalMore2/AgentController/AgentController-1856000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1856000,
+            "file_path": "results/Test1v1_RewGoalMore2/AgentController.onnx",
+            "reward": null,
+            "creation_time": 1767960589.903019,
+            "auxillary_file_paths": [
+                "results/Test1v1_RewGoalMore2/AgentController/AgentController-1856000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

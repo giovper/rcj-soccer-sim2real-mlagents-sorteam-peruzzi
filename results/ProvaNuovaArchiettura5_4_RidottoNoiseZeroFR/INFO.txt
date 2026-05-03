@@ -1,0 +1,8 @@
+Run del 12/4/26
+
+file config: configs/config_simpler_curriculum_2_edit.yaml
+
+Successiva della run results/ProvaNuovaArchiettura5_3, con noise a ZERO
+
+Risultati:
+Migliora solo molto leggermente

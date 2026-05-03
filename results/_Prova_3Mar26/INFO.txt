@@ -1,0 +1,17 @@
+Run tra 3 e 4 marzo - con modifiche:
+- uso di file di configurazione: config_unmaxed_10M_stable_noise.yaml
+- modifiche codice suggerite da gemini (ridotto molto il reward per il colpire la palla, reso più adatto e proprozionato)
+
+Dopo 100M step, il problema è che l'agente è ancora concentrato
+solo principalmente sul colpire la palla verso la porta avversaria
+e non fare goal tanto. Cioè gli episodi terminano sempre
+per lo scadere del tempo e le ricompense medie stanno sui 10 (lo score da 20 punti)
+Quando è in "mischia" con l'altro robot, il robot sembra che voglia mandare la palla verso la porta, ma
+quando affronta uno scenario un po' diverso tipo quando è vicino della porta a lato
+non sa mandare la palla in porta.
+
+Inoltre ha tanta paura di scontrarsi col muro (gemini suggeriva di rendere meno grave la ricompensa negativa per quello)
+
+File di config: configs/config_unmaxed_10M_stable_noise.yaml
+
+Allego video

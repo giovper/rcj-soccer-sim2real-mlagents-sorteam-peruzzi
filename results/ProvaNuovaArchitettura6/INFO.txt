@@ -1,0 +1,28 @@
+Run del 13/4/26
+
+file config: configs/config_simpler_curriculum_3.yaml
+
+Novità rispetto a ProvaNuovaArchitettura5_5_NoiseDinamico:
+- Aggiunte osservazioni della velocità del robot (vx, vz orientate) [1.5]
+- Aggiunte osservazioni della velocità della palla (vx, vz orientate) [1.6]
+- VectorObservationSize: 6 -> 10
+- Noise dinamico (proporzionale alla distanza dalla palla) mantenuto
+
+Risultati:
+Il problema del "avanti e indietro" quando il robot è vicino alla palla (presente nella run 5_5 con noise dinamico)
+sembra risolto o molto ridotto, probabilmente grazie alle obs di velocità.
+
+Problema principale emerso: l'agente tende fortemente, quando si trova nel quadrante
+in alto a sx (o basso a sx) del campo, a spingere la palla contro il muro nero sopra
+la porta blu, invece di tirarla in porta. Fa goal solo occasionalmente quando la palla
+rimbalza dallo spigolo del muro e rientra nell'angolo dell'apertura della porta.
+
+Causa identificata: il netto di reward nell'angolo in alto a sx è positivo (+0.09/step in fase 2):
+  proximityVeryClose (+0.11) + ballLikelyToScoreX (+0.20) + ballLikelyToScoreY (-0.10) + constantNegative (-0.12) = +0.09
+
+L'agente ha trovato un ottimo locale: stare vicino alla palla nell'angolo massimizza la reward.
+
+Fix previsto per PNA7: rendere la reward moltiplicativa (alphaX * f(alphaY))
+cosi che il reward X sia zero quando la palla e fuori dalla fascia centrale Y.
+
+Vedi anche ProvaNuovaArchitettura6_2 per una ripetizione con problemi simili ma leggermente meno accentuati.

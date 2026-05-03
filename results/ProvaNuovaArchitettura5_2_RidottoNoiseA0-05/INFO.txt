@@ -1,0 +1,10 @@
+Run del 11/4/26
+
+file config: configs/config_simpler_curriculum_2_edit.yaml
+
+Run che succede la run results/ProvaNuovaArchiettura5_RobotStaticoFase2 con l'unico
+cambiamento che riduce i 3 noise nelle posizioni da +-0.1 a +-0.05
+
+Risultati:
+Non cambia quasi nulla, talvolta meglio, talvolta peggio, rispetto a
+ProvaNuovaArchiettura5_RobotStaticoFase2 (che ha noise +-0.1)

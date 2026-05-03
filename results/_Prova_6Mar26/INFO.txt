@@ -1,0 +1,8 @@
+La run si rileva buona dall'inizio. Il commit "commit con il codice iniziale del training 6 mar" contiene il codice della condizione iniziale
+della run, che è buona perchè i robot imparano in fretta a colpire in porta.
+Tuttavia, dopo ho modificato le ricompense del colpire per far si che non fossero altissime come erano (nel commit nn c'è) e dopo averlo
+lasciato ad allenare i 2 robot diventano troppo bravi e si complicano tantissimo andando alla fine a sbattere continuamente sui muri (accumulando reward troppo spesso dal colpire la palla perchè fare goal era diventato troppo difficile per il comportamento dell'altro robot)
+
+Robe che si potrebbero fare:
+Far si che dopo un certo numero di step il robot sia ricompensato molto meno per i tiri (per quelli prima si può tenere il reward vecchio) - e dopo molto meno e principalmente per gol
+E dopo un certo numero, l’avversario sia vario (tra i modello intermedi di checkpoint)

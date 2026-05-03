@@ -1,0 +1,5 @@
+Ripetizione della run ProvaNuovaArchitettura3, dato che quest'ultima si era resettata (quando provavo a fare --inference).
+I risultati sono praticamente i medesimi.
+Era la run effettuata il 10/4/26, durante l'incrontro col bro dell'Olivetti
+
+config.yaml = configs/config_simpler_curriculum_2.yaml

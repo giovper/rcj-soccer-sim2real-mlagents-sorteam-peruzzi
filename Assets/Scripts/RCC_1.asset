@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89eb077b7042a4387ad1971bafb94057, type: 3}
+  m_Name: RCC_1
+  m_EditorClassIdentifier: 
+  perPhase:
+  - proximityVeryClose: 0.22
+    proximityClose: 0.17
+    proximityMedium: 0.12
+    proximityFar: 0.05
+    proximityVeryFar: -0.12
+    ballLikelyToScore: 0.05
+    hitWall: -5
+    scorePositive: 4
+    scoreNegative: -4
+    hitBallDirectionAlpha: 0.3
+    hitBallForceAlpha: 0.5
+    hitBallPrecisionOffset: 0.6
+    constantNegative: -0.03
+  - proximityVeryClose: 0.11
+    proximityClose: 0.08
+    proximityMedium: 0.05
+    proximityFar: 0.03
+    proximityVeryFar: -0.05
+    ballLikelyToScore: 0.2
+    hitWall: -9
+    scorePositive: 28
+    scoreNegative: -28
+    hitBallDirectionAlpha: 1
+    hitBallForceAlpha: 1
+    hitBallPrecisionOffset: 0.35
+    constantNegative: -0.1
+  - proximityVeryClose: 0.04
+    proximityClose: 0.02
+    proximityMedium: 0.01
+    proximityFar: 0
+    proximityVeryFar: -0.03
+    ballLikelyToScore: 0.15
+    hitWall: -18
+    scorePositive: 40
+    scoreNegative: -40
+    hitBallDirectionAlpha: 1.3
+    hitBallForceAlpha: 1.1
+    hitBallPrecisionOffset: 0.1
+    constantNegative: -0.2

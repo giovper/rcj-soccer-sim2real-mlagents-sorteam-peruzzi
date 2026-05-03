@@ -1,0 +1,4 @@
+Run (7.3) in cui ci sono sia hitBallForceAlpha che hitBallPrecisionOffset per valutare la direzione, risultati marginali
+
+Commit di questa run effettuato molto dopo, 2/5/26, dunque non so molto se non il fatto che
+il problema della direzione ancora non è risolto

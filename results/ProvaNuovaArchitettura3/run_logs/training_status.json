@@ -1,0 +1,41 @@
+{
+    "phase": {
+        "lesson_num": 0
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    },
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 19599962,
+                "file_path": "results/ProvaNuovaArchitettura3/AgentController/AgentController-19599962.onnx",
+                "reward": -8.758949279785156,
+                "creation_time": 1775723353.550648,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura3/AgentController/AgentController-19599962.pt"
+                ]
+            },
+            {
+                "steps": 19617982,
+                "file_path": "results/ProvaNuovaArchitettura3/AgentController/AgentController-19617982.onnx",
+                "reward": -19.397129142870668,
+                "creation_time": 1775723359.700495,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura3/AgentController/AgentController-19617982.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 19617982,
+            "file_path": "results/ProvaNuovaArchitettura3/AgentController.onnx",
+            "reward": -19.397129142870668,
+            "creation_time": 1775723359.700495,
+            "auxillary_file_paths": [
+                "results/ProvaNuovaArchitettura3/AgentController/AgentController-19617982.pt"
+            ]
+        }
+    }
+}

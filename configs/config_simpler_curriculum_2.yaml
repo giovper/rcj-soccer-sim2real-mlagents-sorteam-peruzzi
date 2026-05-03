@@ -1,0 +1,71 @@
+behaviors:
+  AgentController:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 4096
+      buffer_size: 40000
+      learning_rate: 1.5e-4
+      beta: 0.005
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear
+
+    network_settings:
+      normalize: true
+      hidden_units: 256
+      num_layers: 2
+      vis_encode_type: simple
+
+    reward_signals:
+      extrinsic:
+        gamma: 0.995
+        strength: 1.0
+
+    max_steps: 100000000
+    time_horizon: 1024
+    summary_freq: 10000
+    checkpoint_interval: 50000
+    keep_checkpoints: 60
+
+environment_parameters:
+  phase:
+    curriculum:
+      - name: AvvicinatiPalla
+        completion_criteria:
+          measure: reward
+          behavior: AgentController
+          signal_smoothing: true
+          threshold: 4.0 #prima della run provanuovaarchitettura4 #da definire
+          min_lesson_length: 100 #definire
+        value: 0.0
+      - name: ImparaTirare
+        completion_criteria:
+          measure: reward
+          behavior: AgentController
+          signal_smoothing: true
+          threshold: 9.0 #da definire
+          min_lesson_length: 100 #definire
+        value: 1.0
+      - name: CombattiControAvversari
+        value: 2.0
+
+env_settings:
+  num_envs: 1
+  seed: -1
+
+engine_settings:
+  time_scale: 20
+  target_frame_rate: -1
+  no_graphics: false
+
+checkpoint_settings:
+  initialize_from: null
+  load_model: false
+  resume: false
+  force: true
+  train_model: true
+  inference: false
+  results_dir: results
+
+#usato in ProvaNuovaArchitettura4 - la run a partire dalla quale ho eliminato le 2 observation x e z del robot avversario

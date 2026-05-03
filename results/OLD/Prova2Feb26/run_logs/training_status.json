@@ -1,0 +1,65 @@
+{
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    },
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 8499904,
+                "file_path": "results/Prova2Feb26/AgentController/AgentController-8499904.onnx",
+                "reward": null,
+                "creation_time": 1770306770.056115,
+                "auxillary_file_paths": [
+                    "results/Prova2Feb26/AgentController/AgentController-8499904.pt"
+                ]
+            },
+            {
+                "steps": 8549888,
+                "file_path": "results/Prova2Feb26/AgentController/AgentController-8549888.onnx",
+                "reward": null,
+                "creation_time": 1770306789.025842,
+                "auxillary_file_paths": [
+                    "results/Prova2Feb26/AgentController/AgentController-8549888.pt"
+                ]
+            },
+            {
+                "steps": 8599936,
+                "file_path": "results/Prova2Feb26/AgentController/AgentController-8599936.onnx",
+                "reward": null,
+                "creation_time": 1770306815.092108,
+                "auxillary_file_paths": [
+                    "results/Prova2Feb26/AgentController/AgentController-8599936.pt"
+                ]
+            },
+            {
+                "steps": 8649968,
+                "file_path": "results/Prova2Feb26/AgentController/AgentController-8649968.onnx",
+                "reward": null,
+                "creation_time": 1770306832.550158,
+                "auxillary_file_paths": [
+                    "results/Prova2Feb26/AgentController/AgentController-8649968.pt"
+                ]
+            },
+            {
+                "steps": 8688496,
+                "file_path": "results/Prova2Feb26/AgentController/AgentController-8688496.onnx",
+                "reward": null,
+                "creation_time": 1770306846.421361,
+                "auxillary_file_paths": [
+                    "results/Prova2Feb26/AgentController/AgentController-8688496.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8688496,
+            "file_path": "results/Prova2Feb26/AgentController.onnx",
+            "reward": null,
+            "creation_time": 1770306846.421361,
+            "auxillary_file_paths": [
+                "results/Prova2Feb26/AgentController/AgentController-8688496.pt"
+            ]
+        }
+    }
+}

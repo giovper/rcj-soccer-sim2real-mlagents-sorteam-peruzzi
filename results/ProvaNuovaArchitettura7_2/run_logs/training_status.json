@@ -1,0 +1,50 @@
+{
+    "phase": {
+        "lesson_num": 2
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    },
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 15349912,
+                "file_path": "results/ProvaNuovaArchitettura7_2/AgentController/AgentController-15349912.onnx",
+                "reward": 17.25989842414856,
+                "creation_time": 1776156454.5987892,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura7_2/AgentController/AgentController-15349912.pt"
+                ]
+            },
+            {
+                "steps": 15349960,
+                "file_path": "results/ProvaNuovaArchitettura7_2/AgentController/AgentController-15349960.onnx",
+                "reward": 60.83504104614258,
+                "creation_time": 1776156497.112319,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura7_2/AgentController/AgentController-15349960.pt"
+                ]
+            },
+            {
+                "steps": 15375949,
+                "file_path": "results/ProvaNuovaArchitettura7_2/AgentController/AgentController-15375949.onnx",
+                "reward": 100.0797415282463,
+                "creation_time": 1776156565.010143,
+                "auxillary_file_paths": [
+                    "results/ProvaNuovaArchitettura7_2/AgentController/AgentController-15375949.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15375949,
+            "file_path": "results/ProvaNuovaArchitettura7_2/AgentController.onnx",
+            "reward": 100.0797415282463,
+            "creation_time": 1776156565.010143,
+            "auxillary_file_paths": [
+                "results/ProvaNuovaArchitettura7_2/AgentController/AgentController-15375949.pt"
+            ]
+        }
+    }
+}

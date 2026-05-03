@@ -1,0 +1,9 @@
+Run molto promettente, sia con modifiche di codice di gemini che yaml (configs/config_unmaxed_10M.yaml),
+entrambi sono allo stato della run in questo commit.
+Lo ho allenato per circa 4 ore fin'ora, e da risultati molto promettenti. Tuttavia non ha ancora raggiunto
+il punto critico di 80M: per questo faccio un commit ora, e continuo ad allenarlo.
+
+DOPO I 100M STEP:
+Da risultati strani in quanto la cumulative rewad non si stabilizza,
+ma il robot sembra avere imparato un po' meglio e almeno la cumulative reward
+non scende dopo gli 80M

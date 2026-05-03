@@ -1,0 +1,9 @@
+Aveva un problema: non è che imparase tantssimo, credo sia perchè nella fase 2 (avendo nel codice specificato solo x
+fase 0 e 1) il robot non randomizzava la propria posizione a inizio episodio.
+
+
+=> Corretto random pos fase 2 (ora ogni episodio di ogni fase inizia con pos random, non più laterale o robe strane, neanche per la pallina),
+assieme a fisica (materiali fisici e slopes e forza di movimento), e creato phaseManager e reward in base alla fase (RCC)
+
+(sia in ProvaNuovaArchitettura2 che ProvaNuovaArchitettura3 usano il config_simpler_curriculum_1.yaml)
+(non più pna3)

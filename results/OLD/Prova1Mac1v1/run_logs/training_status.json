@@ -1,0 +1,38 @@
+{
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 499968,
+                "file_path": "results/Prova1Mac1v1/AgentController/AgentController-499968.onnx",
+                "reward": 2.7,
+                "creation_time": 1766268439.592177,
+                "auxillary_file_paths": [
+                    "results/Prova1Mac1v1/AgentController/AgentController-499968.pt"
+                ]
+            },
+            {
+                "steps": 501120,
+                "file_path": "results/Prova1Mac1v1/AgentController/AgentController-501120.onnx",
+                "reward": 2.7,
+                "creation_time": 1766268439.625639,
+                "auxillary_file_paths": [
+                    "results/Prova1Mac1v1/AgentController/AgentController-501120.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 501120,
+            "file_path": "results/Prova1Mac1v1/AgentController.onnx",
+            "reward": 2.7,
+            "creation_time": 1766268439.625639,
+            "auxillary_file_paths": [
+                "results/Prova1Mac1v1/AgentController/AgentController-501120.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

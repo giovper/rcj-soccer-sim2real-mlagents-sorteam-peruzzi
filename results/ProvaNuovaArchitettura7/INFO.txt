@@ -1,0 +1,23 @@
+Run del 14/4/26
+
+file config: configs/config_simpler_curriculum_2_edit.yaml
+
+Novità rispetto a ProvaNuovaArchitettura6:
+- Fix exploit angolo - NON completamente risolto
+- ballLikelyToScoreX e ballLikelyToScoreY unificati in ballLikelyToScore (RCC aggiornato)
+
+non cambia molto rispetto a come era prima, anche se quando è più diretto il tiro (la palla è abbastanza davanti alla porta), il robot preferisce tirare, mentre   
+  quando la palla è distante va sempre negli angoli sinistri alto e basso. penso sia sia perchè rispetto a prima, le tue ricompense di evallBallLikelyToScore sia    
+  mabbastaza più alta, e anche perchè c'è ancora una componente positiva credo (tipo se la posizione della palla è x quindi alphaX è 1.1 e y è 0.6 (0.45 circa è     
+  l'atezza della porta), considerando x=1, y=1 uno degli angoli in considerazione.)
+
+      47                  if (evalBallLikelyToScore)
+      48                  {
+49 +                    float alphaY = (0.4f - Math.Abs(logicalBallPos.y)) * 2f; // -1 -> 1                                                             
+      50                      float alphaX = logicalBallPos.x * (TeamID == 0 ? 1f : -1f); // -1 -> 1
+      51  
+       52 +                    // Moltiplicativa: X reward azzerata se la palla è fuori dalla fascia centrale Y (alphaY<=0)                                    
+      53 +                    float alpha = alphaX * Mathf.Max(0f, alphaY);                                                                                   
+      54  
+      55                      AddRewardContestantAgent(alpha * RewardConf.ballLikelyToScore, "eval ball likely to score");
+      56                  }
